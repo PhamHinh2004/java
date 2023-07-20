@@ -1,0 +1,23 @@
+package firstproject;
+
+import java.util.Scanner;
+
+public class hinh {
+	public static void main(String[] args) {
+		int a = 6;
+		int b = 4;
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		// ep kieu ngam dinh 
+		float c = a;
+		float d = b;
+		System.out.println("c = " + c);
+		System.out.println("d = " + d);
+		// ep kieu tuong minh 
+		
+		float e = (float) a;
+		float h = (float) b;
+		System.out.println("e = " + e);
+		System.out.println("h = " + h);
+	}
+}

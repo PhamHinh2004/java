@@ -1,0 +1,17 @@
+package firstproject;
+
+import java.util.Scanner;
+
+public class hinh {
+	public static void main(String[] args) {
+		// ep kieu ngam dinh
+		int a = 3;
+		float b = a ;
+		System.out.println(b);
+		// ep kieu tuong minh
+		float c = 4.5f;
+		int d = (int)c;
+		System.out.println(d);
+		
+	}
+}

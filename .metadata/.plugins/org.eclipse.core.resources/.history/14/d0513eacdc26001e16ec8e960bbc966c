@@ -1,0 +1,20 @@
+package firstproject;
+
+import java.util.Scanner;
+
+public class hinh {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+//		System.out.println("Nhap n :");;
+//		int n = sc.nextInt();
+		
+		System.out.println("Nhap ho va ten :");
+		String hovaten = sc.nextLine();
+		
+		System.out.println("Nhap n :");;
+		int n = sc.nextInt();
+		
+		System.out.println("n = " + n);
+		System.out.println("ho va ten :" + hovaten);
+	}
+}
